@@ -1,0 +1,23 @@
+/*
+    Tindog Startup Website
+    Web Development Course Project
+    Created by Dawid Keyser
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap');
+
+#title {
+    background-color: #ff4c68;
+}
+
+#title-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
