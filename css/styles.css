@@ -218,12 +218,11 @@ body {
 /* MEDIA QUERY
 --------------------------------------------------------*/
 
-@media screen and (max-width: 1028px) {
+@media screen and (max-width: 992px) {
         
     .title-image {
         position: static;
         transform: rotate(0);
-        width: 250px;
     }
 
     #title {
