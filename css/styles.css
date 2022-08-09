@@ -1,10 +1,14 @@
-/*
+/*------------------------------------------------
     Tindog Startup Website
     Web Development Course Project
     Created by Dawid Keyser
-*/
+---------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap');
+
+
+/* GLOBAL
+--------------------------------------------------------*/
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -27,7 +31,8 @@ body {
 }
 
 
-/* Navigation Bar */
+/* NAVIGATION BAR 
+--------------------------------------------------------*/
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -50,21 +55,25 @@ body {
 }
 
 
-/* Download Buttons */
+/* DOWNLOAD BUTTONS 
+--------------------------------------------------------*/
 
 .download-button {
     margin: 5% 3% 5% 0;
 }
 
 
-/* Title Image */
+/* TITLE IMAGE 
+--------------------------------------------------------*/
 
 .title-image {
     width: 60%;
     transform: rotate(25deg);
 }
 
-/* Features Section */
+
+/* FEATURES SECTION 
+--------------------------------------------------------*/
 
 #features {
     padding: 7% 15%;
@@ -96,7 +105,8 @@ body {
 }
 
 
-/* Testimonial Section */
+/* TESTIMONIAL SECTION 
+--------------------------------------------------------*/
 
 #testimonials {
     text-align: center;
@@ -122,7 +132,8 @@ body {
 }
 
 
-/* Press Section */
+/* PRESS SECTION 
+--------------------------------------------------------*/
 
 #press {
     background-color: #ef8172;
