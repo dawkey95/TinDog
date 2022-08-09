@@ -1,10 +1,14 @@
-/*
+/*------------------------------------------------
     Tindog Startup Website
     Web Development Course Project
     Created by Dawid Keyser
-*/
+---------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap');
+
+
+/* GLOBAL
+--------------------------------------------------------*/
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -27,7 +31,8 @@ body {
 }
 
 
-/* Navigation Bar */
+/* NAVIGATION BAR 
+--------------------------------------------------------*/
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -50,14 +55,16 @@ body {
 }
 
 
-/* Download Buttons */
+/* DOWNLOAD BUTTONS 
+--------------------------------------------------------*/
 
 .download-button {
     margin: 5% 3% 5% 0;
 }
 
 
-/* Title Image */
+/* TITLE IMAGE 
+--------------------------------------------------------*/
 
 .title-image-container {
     position: relative;
@@ -70,7 +77,9 @@ body {
     right: 30%;
 }
 
-/* Features Section */
+
+/* FEATURES SECTION 
+--------------------------------------------------------*/
 
 #features {
     padding: 7% 15%;
@@ -104,7 +113,8 @@ body {
 }
 
 
-/* Testimonial Section */
+/* TESTIMONIAL SECTION 
+--------------------------------------------------------*/
 
 #testimonials {
     text-align: center;
@@ -130,7 +140,8 @@ body {
 }
 
 
-/* Press Section */
+/* PRESS SECTION 
+--------------------------------------------------------*/
 
 #press {
     background-color: #ef8172;
@@ -144,7 +155,8 @@ body {
 }
 
 
-/* Pricing Section */
+/* PRICING SECTION 
+--------------------------------------------------------*/
 
 #pricing {
     text-align: center;
@@ -200,4 +212,21 @@ body {
     background-color: #ff4c68;
     color: white;
     border-color: #ef8172;
+}
+
+
+/* MEDIA QUERY
+--------------------------------------------------------*/
+
+@media screen and (max-width: 1028px) {
+        
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 250px;
+    }
+
+    #title {
+        text-align: center;
+    }
 }
