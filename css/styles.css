@@ -147,7 +147,8 @@ body {
 }
 
 
-/* Pricing Section */
+/* PRICING SECTION 
+--------------------------------------------------------*/
 
 #pricing {
     text-align: center;
@@ -203,4 +204,21 @@ body {
     background-color: #ff4c68;
     color: white;
     border-color: #ef8172;
+}
+
+
+/* MEDIA QUERY
+--------------------------------------------------------*/
+
+@media screen and (max-width: 1028px) {
+        
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 250px;
+    }
+
+    #title {
+        text-align: center;
+    }
 }
