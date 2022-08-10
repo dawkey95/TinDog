@@ -215,6 +215,51 @@ body {
 }
 
 
+/* CTA SECTION 
+--------------------------------------------------------*/
+
+.cta-container {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 3% 7% 3%;
+}
+
+#cta {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.cta-container h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+
+/* FOOTER SECTION 
+--------------------------------------------------------*/
+
+.footer-container {
+    background-color: #fff;
+    text-align: center;
+    padding: 3% 7% 3%;
+}
+
+.col-bi {
+    padding: 0 0 1rem;
+}
+
+.bi {
+    padding: 0 0.5rem;
+}
+
+#footer-copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #8f8f8f;
+}
+
 /* MEDIA QUERY
 --------------------------------------------------------*/
 
