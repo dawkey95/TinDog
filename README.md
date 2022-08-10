@@ -1,6 +1,6 @@
-#TINDOG
+# TINDOG
 
-##About Project
+## About Project
 
 This project is a start-up mock website to demonstrate the fundamental skills associated with HTML, CSS and Bootstrap 5. 
 
